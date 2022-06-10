@@ -26,7 +26,7 @@
                 <td>{{lugar['cidade']}}</td>
                 <td>{{lugar['pais']}}</td>
                 <td><a href="#" class="btn btn-sm btn-outline-success">Editar</a></td>
-                <td><a href="#" class="btn btn-sm btn-danger">Apagar</a></td>
+                <td><a href="/delete/{{lugar['id']}}" class="btn btn-sm btn-danger">Apagar</a></td>
             </tr>
 
         {% endfor %}
